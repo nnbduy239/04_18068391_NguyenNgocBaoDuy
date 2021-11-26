@@ -20,4 +20,7 @@ public class MyServices extends Service {
             return MyServices.this;
         }
     }
+    public double TinhTien(double a, double b, double c, double d){
+        return a+ b + c +d;
+    }
 }

@@ -18,7 +18,7 @@
       app:srcCompat="@drawable/img" />
 
   <ImageView
-      android:id="@+id/imageView2"
+      android:id="@+id/cban1"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_marginStart="29dp"
@@ -28,53 +28,53 @@
       app:srcCompat="@drawable/img_1" />
 
   <ImageView
-      android:id="@+id/imageView3"
+      android:id="@+id/cban2"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_marginStart="111dp"
-      app:layout_constraintBottom_toBottomOf="@+id/imageView2"
-      app:layout_constraintStart_toEndOf="@+id/imageView2"
-      app:layout_constraintTop_toTopOf="@+id/imageView2"
+      app:layout_constraintBottom_toBottomOf="@+id/cban1"
+      app:layout_constraintStart_toEndOf="@+id/cban1"
+      app:layout_constraintTop_toTopOf="@+id/cban1"
       app:srcCompat="@drawable/img_1" />
 
   <ImageView
-      android:id="@+id/imageView4"
+      android:id="@+id/cban3"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_marginTop="69dp"
-      app:layout_constraintEnd_toEndOf="@+id/imageView2"
-      app:layout_constraintStart_toStartOf="@+id/imageView2"
-      app:layout_constraintTop_toBottomOf="@+id/imageView2"
+      app:layout_constraintEnd_toEndOf="@+id/cban1"
+      app:layout_constraintStart_toStartOf="@+id/cban1"
+      app:layout_constraintTop_toBottomOf="@+id/cban1"
       app:srcCompat="@drawable/img_1" />
 
   <ImageView
-      android:id="@+id/imageView5"
+      android:id="@+id/cban4"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_marginTop="69dp"
-      app:layout_constraintEnd_toEndOf="@+id/imageView3"
-      app:layout_constraintStart_toStartOf="@+id/imageView3"
-      app:layout_constraintTop_toBottomOf="@+id/imageView3"
+      app:layout_constraintEnd_toEndOf="@+id/cban2"
+      app:layout_constraintStart_toStartOf="@+id/cban2"
+      app:layout_constraintTop_toBottomOf="@+id/cban2"
       app:srcCompat="@drawable/img_1" />
 
   <ImageView
-      android:id="@+id/imageView6"
+      android:id="@+id/cban5"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_marginTop="105dp"
-      app:layout_constraintEnd_toEndOf="@+id/imageView4"
-      app:layout_constraintStart_toStartOf="@+id/imageView4"
-      app:layout_constraintTop_toBottomOf="@+id/imageView4"
+      app:layout_constraintEnd_toEndOf="@+id/cban3"
+      app:layout_constraintStart_toStartOf="@+id/cban3"
+      app:layout_constraintTop_toBottomOf="@+id/cban3"
       app:srcCompat="@drawable/img_1" />
 
   <ImageView
-      android:id="@+id/imageView7"
+      android:id="@+id/cban6"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_marginTop="105dp"
-      app:layout_constraintEnd_toEndOf="@+id/imageView5"
-      app:layout_constraintStart_toStartOf="@+id/imageView5"
-      app:layout_constraintTop_toBottomOf="@+id/imageView5"
+      app:layout_constraintEnd_toEndOf="@+id/cban4"
+      app:layout_constraintStart_toStartOf="@+id/cban4"
+      app:layout_constraintTop_toBottomOf="@+id/cban4"
       app:srcCompat="@drawable/img_1" />
 
   <TextView
@@ -85,9 +85,9 @@
       android:text="Bàn 1"
       android:textSize="18sp"
       android:textColor="@color/white"
-      app:layout_constraintEnd_toEndOf="@+id/imageView2"
-      app:layout_constraintStart_toStartOf="@+id/imageView2"
-      app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+      app:layout_constraintEnd_toEndOf="@+id/cban1"
+      app:layout_constraintStart_toStartOf="@+id/cban1"
+      app:layout_constraintTop_toBottomOf="@+id/cban1" />
 
   <TextView
       android:id="@+id/textView3"
@@ -97,9 +97,9 @@
       android:text="Bàn 2"
       android:textSize="18sp"
       android:textColor="@color/white"
-      app:layout_constraintEnd_toEndOf="@+id/imageView3"
-      app:layout_constraintStart_toStartOf="@+id/imageView3"
-      app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+      app:layout_constraintEnd_toEndOf="@+id/cban2"
+      app:layout_constraintStart_toStartOf="@+id/cban2"
+      app:layout_constraintTop_toBottomOf="@+id/cban2" />
 
   <TextView
       android:id="@+id/textView6"
@@ -109,9 +109,9 @@
       android:text="Bàn 3"
       android:textSize="18sp"
       android:textColor="@color/white"
-      app:layout_constraintEnd_toEndOf="@+id/imageView4"
-      app:layout_constraintStart_toStartOf="@+id/imageView4"
-      app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+      app:layout_constraintEnd_toEndOf="@+id/cban3"
+      app:layout_constraintStart_toStartOf="@+id/cban3"
+      app:layout_constraintTop_toBottomOf="@+id/cban3" />
 
   <TextView
       android:id="@+id/textView7"
@@ -121,9 +121,9 @@
       android:text="Bàn 4"
       android:textSize="18sp"
       android:textColor="@color/white"
-      app:layout_constraintEnd_toEndOf="@+id/imageView5"
-      app:layout_constraintStart_toStartOf="@+id/imageView5"
-      app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+      app:layout_constraintEnd_toEndOf="@+id/cban4"
+      app:layout_constraintStart_toStartOf="@+id/cban4"
+      app:layout_constraintTop_toBottomOf="@+id/cban4" />
 
   <TextView
       android:id="@+id/textView8"
@@ -133,9 +133,9 @@
       android:text="Bàn 5"
       android:textSize="18sp"
       android:textColor="@color/white"
-      app:layout_constraintEnd_toEndOf="@+id/imageView6"
-      app:layout_constraintStart_toStartOf="@+id/imageView6"
-      app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+      app:layout_constraintEnd_toEndOf="@+id/cban5"
+      app:layout_constraintStart_toStartOf="@+id/cban5"
+      app:layout_constraintTop_toBottomOf="@+id/cban5" />
 
   <TextView
       android:id="@+id/textView9"
@@ -145,7 +145,7 @@
       android:text="Bàn 6"
       android:textSize="18sp"
       android:textColor="@color/white"
-      app:layout_constraintEnd_toEndOf="@+id/imageView7"
-      app:layout_constraintStart_toStartOf="@+id/imageView7"
-      app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+      app:layout_constraintEnd_toEndOf="@+id/cban6"
+      app:layout_constraintStart_toStartOf="@+id/cban6"
+      app:layout_constraintTop_toBottomOf="@+id/cban6" />
 </androidx.constraintlayout.widget.ConstraintLayout>
